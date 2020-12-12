@@ -1,0 +1,123 @@
+{
+    "Header": {
+
+        "title": "Edu-AR",
+        "paragraph": "Bringing Education to Everyone's home."
+
+    },
+    "About": {
+        "paragraph": " Through our platform, educators can improve learning outcomes through increased engagement and interactivity. Our platform will enable the teachers to improve the understanding of abstract, spatial geometric concepts through manipulation and multi-angle observation of virtual 3D objects for the students.",
+        "Why": [
+            "Free of Cost",
+            "View any 3D model",
+            "Group Chat Tools",
+            "Share Your Screen"
+        ],
+        "Why2": [
+            "View model in AR",
+            "Live Video Conferencing",
+            "Real-time Collaboration",
+            "Face-to-Face interaction"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-qrcode",
+            "name": "View Model in AR",
+            "text": "Scan the QR-Code using our app to bring the same model to your own room!"
+        },
+        {
+            "icon": "fa fa-laptop",
+            "name": "View Model in your own web-browser",
+            "text": "Don't have a smartphone at the moment? No problem! View the model in your own web browser!"
+        },
+        {
+            "icon": "fa fa-video-camera",
+            "name": "Live Video-Conferencing",
+            "text": "Interact with your students using Video Chat!"
+        },
+        {
+            "icon": "fa fa-comment-o",
+            "name": "Real-time Group Chat",
+            "text": "Send Assignments, Quizes, Links and other messages using the inbuilt group chat!"
+        },
+        {
+            "icon": "fa fa-desktop",
+            "name": "Share your screen with others",
+            "text": "Share your screen with other participants with ease!"
+        },
+        {
+            "icon": "fa fa-graduation-cap",
+            "name": "Direct Student-Teacher Interaction",
+            "text": "Use all these tools to remove any barriers in your teaching!"
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "https://pyxis.nymag.com/v1/imgs/51b/bff/bb98b7716e19485cc9ef80664d4d3b6b6a-21-mark-zuckerberg.rsquare.w1200.jpg",
+            "text": "I think everyone would basically agree that we do not have the science or technology today to build the AR glasses that we want. We may in five years, or seven years, or something like that. But we’re not likely to be able to deliver the experience that we want right now.",
+            "name": "Mark Zuckerburg"
+        },
+        {
+            "img": "https://cdn.vox-cdn.com/thumbor/4QtOwnOxCdwESvt1-CpQSTZvHHA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19932738/1206292068.jpg.jpg",
+            "text": "Soon there will be virtual reality, and augmented reality. If you assume any rate of improvement at all, then games will become indistinguishable from reality. Even if that rate of advancement drops from a 1,000 of what it is right now, then you just say let's imagine it's 10,000 years in the future, which is nothing in the evolutionary scale.",
+            "name": "Elon Musk"
+        },
+        {
+            "img": "https://pbs.twimg.com/profile_images/1194113737092935681/63O1znGw.jpg",
+            "text": "AR is going to take a while, because there are some really hard technology challenges there. But it will happen, it will happen in a big way, and we will wonder when it does, how we ever lived without it. Like we wonder how we lived without our phone today.",
+            "name": "Tim Cook"
+        }
+        
+    ],
+    "Team": [{
+            "img": "data:image/jpeg;base64,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",
+            "name": "Kishlay",
+            "job": "Backend Developer"
+        },
+        {
+            "img": "https://www.lingerandlook.com/Names/Heroes/arrow2.jpg",
+            "name": "Monaal",
+            "job": "AR Developer"
+        }, 
+        {
+            "img": "https://pyxis.nymag.com/v1/imgs/aee/089/6a56d6d4a73bb8c477fefec601e1a01c44-14-wonder-woman.rsquare.w1200.jpg",
+            "name": "Vyom",
+            "job": "App Developer"
+        },
+        {
+            "img": "https://pyxis.nymag.com/v1/imgs/3cf/c9e/abc2a7750033a65c492c950740d817d610-20-dark-knight-rises-2.rsquare.w700.jpg",
+            "name": "Anuj",
+            "job": "Frontend Developer"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
