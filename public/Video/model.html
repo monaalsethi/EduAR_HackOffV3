@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Viewer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <style>
+        html{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            margin: 0;
+        }
+        #holder{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 100%;
+            background-color: #f6f6f6;
+        }
+        #text {
+            margin-top: 25px;
+            align-items: center;
+            justify-self: center;
+            text-align: center;
+            /* margin: 0px 45px; */
+        }
+        model-viewer{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            outline: none;
+            outline-style: solid;
+            outline-color: #eeeeee;
+            outline-width: 5px;
+            background: rgb(255,255,255);
+            background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(203,227,250,1) 100%);
+            /* outline:  ; */
+        }
+    </style>
+</head>
+<body style="background-color: white;">
+    <div id="holder">
+        <div id="model2">
+            <model-viewer id="model" src = "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF/Box.gltf" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+        </div>
+        <div id="text">
+            <div class="input-group mt-3">
+                <input type="text" class="form-control" placeholder="Enter the URL of Model" name="a" id="a" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-danger" onclick="add(document.getElementById('a').value)" type="button" id="button-addon2">VIEW</button>
+              </div>
+                <!-- <h1>URL</h1><input class="form-control" type="text" name="a" id="a">
+                <button class="btn btn-info mb-4" onclick="add(document.getElementById('a').value)">VIEW</button> -->
+            <br>
+            <img id = "qr" src="https://api.qrserver.com/v1/create-qr-code/?data=https://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF/Box.gltf&size=250x250" alt="" title="" />
+            <br><br><p>Scan this QR-Code using our <a href="https://drive.google.com/file/d/1_NLqDUcLbwfvjCa0y7eRIOPvweMmzsUM/view?usp=sharing" target = "_blank``">ARViewer</a> App!</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function add(input){
+                var model = document.getElementById('model');
+                var model_link = document.getElementById('qr');
+                model_link.src = `https://api.qrserver.com/v1/create-qr-code/?data=https://arvr.google.com/scene-viewer/1.0?file=` + String(input) + `&size=250x250`;
+                model.src=String(input);
+        }
+    </script>
+</body>
+</html>
