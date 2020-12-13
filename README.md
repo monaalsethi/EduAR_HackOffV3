@@ -16,3 +16,14 @@ node app.js
 ```
 3. View on localhost:4001
 4. To view the model in AR, simply download and install the application, and scan the QR-Code.
+
+# Sample Model Links
+Try some models by using the links below to get started!
+
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF/Box.gltf
+
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/GearboxAssy/glTF/GearboxAssy.gltf
+
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/ReciprocatingSaw/glTF/ReciprocatingSaw.gltf
+
+https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/2CylinderEngine/glTF/2CylinderEngine.gltf
